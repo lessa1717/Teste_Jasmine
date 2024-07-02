@@ -1,19 +1,19 @@
-// describe("Teste de Classificacao de  Idade", function() {
-//     it("Classificacao Maior Idade", function() {
-//         expect(maioridade(18)).toBe("Maior idade")
-    
-//     })
-// })
-//     describe("Teste de Classificacao de  Idade", function() {
-//         it("Classificacao Menor Idade", function() {
-//             expect(maioridade(10)).toBe("Menor idade")
-//         })
+describe("Teste de Classificacao de  Idade", function () {
+    it("Classificacao Maior idade", function () {
+        expect(maioridade(20)).toBe("Maior idade")
 
-//     })
-//     describe("Teste de Classificacao de  Idade", function() {
-//         it("Entrada Inválida", function() {
-//             expect(maioridade(10)).toBe("Idade inválida")
-//         })
+    })
+})
+describe("Teste de Classificacao de  Idade", function () {
+    it("Classificacao Menor idade", function () {
+        expect(maioridade(10)).toBe("Menor idade")
+    })
 
-//     })
+})
+describe("Teste de Classificacao de  Idade", function () {
+    it("Entrada inválida", function () {
+        expect(maioridade(0)).toBe("Idade inválida")
+    })
+
+})
 
